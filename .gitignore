@@ -25,6 +25,7 @@
 *.tmp
 *.temp
 ~$*
+screenshots/
 
 # Ignore system files
 .DS_Store

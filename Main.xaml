@@ -109,7 +109,7 @@
       <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1201,2001" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1238,3636" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="strPassword" />
       <Variable x:TypeArguments="x:String" Name="strEmail" />
@@ -120,7 +120,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Inicializacao" sap:VirtualizedContainerService.HintSize="562,285" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="Inicializacao" sap:VirtualizedContainerService.HintSize="1238,285" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -142,7 +142,7 @@
         </sap:WorkflowViewStateService.ViewState>
       </ui:GetPassword>
     </Sequence>
-    <Sequence DisplayName="Realiza login ACME" sap:VirtualizedContainerService.HintSize="562,1467" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <Sequence DisplayName="Realiza login ACME" sap:VirtualizedContainerService.HintSize="1238,3102" sap2010:WorkflowViewState.IdRef="Sequence_3">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:Int32" Name="intContador" />
       </Sequence.Variables>
@@ -151,7 +151,7 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Assign sap:VirtualizedContainerService.HintSize="528,114" sap2010:WorkflowViewState.IdRef="Assign_2">
+      <Assign sap:VirtualizedContainerService.HintSize="1204,114" sap2010:WorkflowViewState.IdRef="Assign_2">
         <Assign.To>
           <OutArgument x:TypeArguments="x:Int32">[intContador]</OutArgument>
         </Assign.To>
@@ -159,7 +159,7 @@
           <InArgument x:TypeArguments="x:Int32">1</InArgument>
         </Assign.Value>
       </Assign>
-      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="528,1261" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1204,2896" sap2010:WorkflowViewState.IdRef="TryCatch_1">
         <TryCatch.Try>
           <Sequence DisplayName="Tenta realizar login" sap:VirtualizedContainerService.HintSize="1166,2645" sap2010:WorkflowViewState.IdRef="Sequence_6">
             <Sequence.Variables>
@@ -354,10 +354,10 @@
           </Sequence>
         </TryCatch.Try>
         <TryCatch.Catches>
-          <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="494,1076" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+          <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="1170,22" sap2010:WorkflowViewState.IdRef="Catch`1_1">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
@@ -365,14 +365,14 @@
               <ActivityAction.Argument>
                 <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
               </ActivityAction.Argument>
-              <Sequence DisplayName="Erro de login" sap:VirtualizedContainerService.HintSize="488,1006" sap2010:WorkflowViewState.IdRef="Sequence_11">
+              <Sequence DisplayName="Erro de login" sap:VirtualizedContainerService.HintSize="472,605" sap2010:WorkflowViewState.IdRef="Sequence_11">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="454,173" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[&quot;Erro ao realizar login&quot;]" />
-                <TryCatch sap2010:Annotation.AnnotationText="Envio de e-mail" DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="454,773" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="438,173" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[&quot;Erro ao realizar login&quot;]" />
+                <TryCatch sap2010:Annotation.AnnotationText="Envio de e-mail" DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="438,372" sap2010:WorkflowViewState.IdRef="TryCatch_2">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -405,7 +405,7 @@
                     </Sequence>
                   </TryCatch.Try>
                   <TryCatch.Catches>
-                    <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="420,22" sap2010:WorkflowViewState.IdRef="Catch`1_2">
+                    <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="404,22" sap2010:WorkflowViewState.IdRef="Catch`1_2">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -421,7 +421,7 @@
                     </Catch>
                   </TryCatch.Catches>
                   <TryCatch.Finally>
-                    <TerminateWorkflow DisplayName="Terminate Workflow" sap:VirtualizedContainerService.HintSize="400,90" sap2010:WorkflowViewState.IdRef="TerminateWorkflow_1" Reason="Não foi possivel enviar e-mail" />
+                    <TerminateWorkflow DisplayName="Terminate Workflow" sap:VirtualizedContainerService.HintSize="400,90" sap2010:WorkflowViewState.IdRef="TerminateWorkflow_1" Reason="Não foi realizar login" />
                   </TryCatch.Finally>
                 </TryCatch>
               </Sequence>
@@ -430,7 +430,7 @@
         </TryCatch.Catches>
       </TryCatch>
     </Sequence>
-    <Assign sap:VirtualizedContainerService.HintSize="562,114" sap2010:WorkflowViewState.IdRef="Assign_4">
+    <Assign sap:VirtualizedContainerService.HintSize="1238,114" sap2010:WorkflowViewState.IdRef="Assign_4">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">[strPath]</OutArgument>
       </Assign.To>
@@ -438,7 +438,7 @@
         <InArgument x:TypeArguments="x:String">C:\Users\julianobs\OneDrive - Suzano S A\Area Dev\GitHub\UiPath\ExtracaoDadosWeb\dados\Transactions.xlsx</InArgument>
       </Assign.Value>
     </Assign>
-    <Sequence DisplayName="Extrai dados ACME" sap:VirtualizedContainerService.HintSize="562,112" sap2010:WorkflowViewState.IdRef="Sequence_4">
+    <Sequence DisplayName="Extrai dados ACME" sap:VirtualizedContainerService.HintSize="1238,112" sap2010:WorkflowViewState.IdRef="Sequence_4">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
