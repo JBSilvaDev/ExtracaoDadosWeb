@@ -10,6 +10,8 @@ O robô navega em um sistema web, extrai informações estruturadas, processa os
 
 -   **Navegação Web:** Acessa e interage com páginas de um sistema web.
 -   **Extração de Dados:** Coleta dados e os armazena em uma estrutura de `DataTable`.
+    -   OBS: Para a atividade de extração de tabela funcionar o User application/Browser precisa esta com a indicação do seu objeto configurada
+    -   ![](image/README/1767621647210.png)
 -   **Processamento de Dados:** Manipula e trata as informações extraídas, utilizando um arquivo Excel como base (`dados/ACME_Dados.xlsx`).
 -   **Envio de E-mail:** Notifica os resultados do processo através do envio de um e-mail via SMTP.
 
