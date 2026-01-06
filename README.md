@@ -33,4 +33,4 @@ O robô navega em um sistema web, extrai informações estruturadas, processa os
     -   `ACME_Dados.xlsx`: Planilha com dados de entrada ou saída.
 -   **project.json:** Arquivo de configuração do projeto, incluindo suas dependências.
 
-"RPA criado como desafio do curso Automatize Process com Erimateia"
+*RPA criado como desafio do curso Automatize Process com Erimateia*
